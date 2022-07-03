@@ -1,0 +1,32 @@
+ul{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.card article{
+    font-size: 20px;
+}
+
+.card p{
+    font-size: 22px;
+}
+
+.card h3{
+    padding: 5px;
+    margin:0;
+}
+
+.card p{
+    margin:0;
+    padding: 10px;
+}
